@@ -1,0 +1,177 @@
+body
+{
+  width:1000px;
+  margin: 0 auto;
+
+}
+
+#container
+{
+  margin: 0 auto;
+  width: 1000px;
+  background-color: #f8f8ff;
+}
+
+header
+{
+  padding: 10PX
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	height: 80px;
+  width: 1000px;
+  margin:0 auto;
+  background-color: #33CCFF;
+}
+
+#logo
+{
+  padding: 10px;
+  width: 80px;
+  height: 60px;
+}
+
+nav
+{
+  padding: 10px;
+  float: right;
+  font-family: "Open Sans";
+}
+nav ul
+{
+	list-style-type: none;
+	/*padding-top: 22px;*/
+}
+
+nav ul li
+{
+	float: left;
+}
+
+nav ul li a
+{
+	display: block;
+	color: #fff;
+	font-size: 16px;
+	text-decoration: none;
+	margin-left: 30px;
+	margin-top: 10px;
+	padding: 10px;
+	text-transform: uppercase;
+	letter-spacing: .5px;
+	border-radius: 10px;
+	cursor: pointer;
+
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+
+nav ul li a:hover
+{
+	background-color: #73B2E2;
+	border-radius: 10px;
+	color: #333;
+}
+
+#content
+{
+  font-family: "Playfair Display";
+  text-indent: 25px;
+  padding: 50px;
+  margin: auto;
+  line-height: 35px;
+  width: 800px;
+}
+
+h1
+{
+  text-align: center;
+  font-family: "Sigmar One";
+  font-size: 60px;
+  line-height: normal;
+  letter-spacing: 2PX;
+  font-weight: bold;
+  width: 1000px;
+}
+
+h2
+{
+  text-align: center;
+  font-family: "Anton";
+  font-size: 50px;
+  line-height: 50px;
+  letter-spacing: 1px;
+  font-weight: lighter;
+  color: #F0E68C;
+}
+
+h3
+{
+  text-align: center;
+  font-family: "Bangers";
+  font-size: 50px;
+  line-height: normal;
+  letter-spacing: normal;
+  font-weight:400;
+  color: #FFAA33;
+}
+
+#img-wrapper
+{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h4
+{
+  background-color: #FFFFBB;
+  text-align: center;
+  font-family: "Zhi Mang Xing";
+  font-size: 35px;
+  line-height: normal;
+  letter-spacing: normal;
+  color: inherit;
+}
+
+h6
+{
+  text-align: center;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 1PX;
+  color: inherit;
+  font-family: "indie Flower";
+  background-color: #ffffff;
+}
+
+#contact
+{
+  padding: 50px;
+  margin: auto;
+  line-height: 35px;
+  width: 800px;
+  font-family: "Montserrat";
+}
+
+
+#img-beers
+{
+  padding: 10px;
+  width: 600px;
+  align-content: stretch;
+  display: block;
+  margin: 0 auto;
+}
+
+li
+{
+  text-align: center;
+}
+
+li a:hover
+{
+	background-color: #ff8800;
+	border-radius: 10px;
+	color: #333;
+}
